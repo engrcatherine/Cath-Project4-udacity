@@ -1,0 +1,14 @@
+(.devops) voclabs:~/environment/project-ml-microservice-kubernetes $ sh run_kubernetes.sh                                          
+Error from server (AlreadyExists): pods "cath-udacity-pro4" already exists
+NAME                READY   STATUS    RESTARTS   AGE
+cath-udacity-pro4   1/1     Running   0          16m
+Forwarding from 127.0.0.1:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+
+.devops) voclabs:~/environment/project-ml-microservice-kubernetes $ bash make_prediction.shPort: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
